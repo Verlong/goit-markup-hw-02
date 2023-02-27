@@ -9,6 +9,19 @@
   --green-color: #31d0aa;
 }
 
-body {
-  font-style: roboto;
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.menu-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue-color);
 }
