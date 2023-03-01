@@ -7,7 +7,7 @@
   --cornflower-color: #e7e9fc;
   --cloud-color: #f4f4fd;
   --green-color: #31d0aa;
-  --white-color: white;
+  --white-color: #ffffff;
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
 }
@@ -15,6 +15,8 @@
 body {
   font-family: var(--primary-font);
   color: var(--slate-color);
+  background-color: var(--white-color);
+  font-size: 16px;
 }
 
 .list {
@@ -31,8 +33,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--navy-blue-color);
@@ -40,7 +40,7 @@ body {
 
 .menu-link {
   font-weight: 500;
-  font-size: 16px;
+
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navy-blue-color);
@@ -55,11 +55,10 @@ body {
   color: var(--ocean-color);
 }
 .contact {
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: normal;
+  color: var(--slate-color);
 }
 
 .contact:hover,
@@ -76,8 +75,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   background-color: var(--iris-color);
   color: var(--white-color);
@@ -95,7 +92,6 @@ body {
 }
 
 .main-title {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -104,7 +100,10 @@ body {
 } /* =================/HERO================ */
 
 /* =================ABOUT================ */
-.suptitle {
+.hidden-header {
+  visibility: hidden;
+}
+.section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -114,7 +113,7 @@ body {
   color: var(--navy-blue-color);
 }
 
-.about-header {
+.section-suptitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -122,9 +121,7 @@ body {
   color: var(--navy-blue-color);
 }
 
-.about-item {
-  font-weight: 400;
-  font-size: 16px;
+.section-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -142,8 +139,6 @@ body {
 }
 
 .team-position {
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
@@ -182,8 +177,6 @@ body {
 }
 
 .footer-about {
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--cornflower-color);
@@ -194,8 +187,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--cloud-color);
