@@ -50,6 +50,10 @@ body {
 .menu-link:focus {
   color: var(--ocean-color);
 }
+
+.menu-link.current {
+  color: var(--ocean-color);
+}
 .contact {
   font-weight: 400;
   font-size: 16px;
