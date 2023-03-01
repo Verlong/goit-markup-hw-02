@@ -24,7 +24,7 @@ body {
 .link {
   text-decoration: none;
 }
-
+/* =================!NAVIGATION!====================== */
 .logo-top {
   font-family: var(--secondary-font);
   font-style: normal;
@@ -66,7 +66,9 @@ body {
 .contact:focus {
   color: var(--ocean-color);
 }
+/* =================/!NAVIGATION!====================== */
 
+/* =================HERO================ */
 .hero {
   background: var(--navy-blue-color);
 }
@@ -99,8 +101,9 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--white-color);
-}
+} /* =================/HERO================ */
 
+/* =================ABOUT================ */
 .suptitle {
   font-weight: 700;
   font-size: 36px;
@@ -125,6 +128,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+/* =================/ABOUT================ */
+
+/* =================TEAM================ */
 .team-name {
   font-weight: 500;
   font-size: 20px;
@@ -141,7 +148,9 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
 }
+/* =================/TEAM================ */
 
+/* =================FILTER================ */
 .filter-btn {
   font-family: var(--primary-font);
   font-weight: 500;
@@ -165,7 +174,9 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
+/* =================/FILTER================ */
 
+/* =================FOOTER================ */
 .footer {
   background: var(--navy-blue-color);
 }
@@ -188,4 +199,4 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--cloud-color);
-}
+} /* =================/FOOTER================ */
